@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <script>
+        function entrarRaton() {
+            $('body').css( 'background-color', 'white')
+        }
+
+        function salirRaton() {
+            $('body').css( 'background-color', 'blue')
+        }       	
+        function getRandom() {
+	
+            var letters = '0123456789ABCDEF';
+            var color = '#';
+
+            for (var i = 0; i < 6; i++) {
+
+                color += letters[Math.floor(Math.random() * 16)];
+
+            }
+
+            return color;
+        }
+        	
+        function setRandom() {
+	
+            let colorRamdon = getRandom();
+            $('body').css( 'background-color', colorRamdon)
+        }
+
+    </script>
+
+    <div class="rectangulo" onmouseenter="entrarRaton()" onmouseout="setRandom()" ></div>
+
+</body>
+</html>
+
+<style>
+    .rectangulo { display: block; width: 150px; height: 150px; background-color: gray;}
+</style>
