@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif, Helvetica, Arial;
+}
+
+.body__header__h1{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.main__article{
+  margin: 100px 50px 200px 50px;
+  border: 20px groove rgba(0, 157, 248, 0.5);
+  padding: 10px;
+  background-color:rgba(2, 106, 138, 0.3);
+}
+.main__article__parrafo, .main__article__miparrafo, .main__article__div1__parrafo{
+  margin-bottom: 20px;
+}
+.main__article__parrafo{
+  color: #f00;
+}
+.main__article__miparrafo{
+  color: rgb(0, 120, 212);
+}
+.main__article__div1__parrafo{
+  color:rgba(229, 255, 0, 0.8);
+}
+.main__article__div2__miparrafo{
+  color: rgb(225, 0, 255);
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="utf-8">
+    <html lang="es-ES">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Ejercicio 3 - HTML/CSS - OpenBootcamp">
+
+    <!--.CSS FILE-->
+    <link href="ej3.css" type="text/css" rel="stylesheet">
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+    <title>Ejercicio 3 - HTML/CSS - OpenBootcamp</title>
+</head>
+<body class="body">
+    <header>
+    </header>
+    <nav>
+    </nav>
+    <main>
+        <figure class="container">
+            <img class="container__image" src="background.jpg">
+            <figcaption class="container__description">
+                    <strong>Band: </strong><a  class="container__description__link" href="https://reaktionmusic.bandcamp.com/?fbclid=IwAR1ZVFZsXW5ZQi6JmUy20L5fCMQXZLf8hUvdcRppRgpycitgtDSL3SZGpOo" target="_blank">REAKTION
+                    </a>
+                <br>         
+                <a class="container__description__js" onclick="myAudioFunction('a');">
+                    <img  class="container__description__js__img" src="https://img.icons8.com/color/48/000000/circled-play--v1.png"/>                
+                </a>
+                <a  class="container__description__js" onclick="myAudioFunction('p');">
+                    <img  class="container__description__js__img" src="https://img.icons8.com/color/48/000000/circled-pause.png"/>               
+                </a>
+                <a  class="container__description__js" onclick="myAudioFunction('s');">
+                    <img class="container__description__js__img" src="https://img.icons8.com/fluency/50/000000/stop-circled.png"/>
+                </a>
+                <br>
+                <strong>Song: </strong><a  class="container__description__link" href="https://reaktionmusic.bandcamp.com/track/h-k-k-human-kind-kills" target="_blank">H.K.K.</a> 
+                <br>
+                <video class="container__description__video" src="video.mp4" preload="auto" autoplay loop muted>
+                </video>
+            </figcaption>
+        </figure>
+    </main>
+    <script>
+        var aAudio = new Audio('sweet-dreams.mp3');
+        var bAudio = new Audio('sweet-dreams.mp3');
+        function myAudioFunction(letter) {
+            if(letter == 'a') {
+                aAudio.play();
+            } if(letter == 'p') {
+                aAudio.pause();
+            } if (letter == 's'){
+                aAudio.pause();
+                aAudio.currentTime = 0;
+            }            
+        }
+    </script>
+</body>
+</html>

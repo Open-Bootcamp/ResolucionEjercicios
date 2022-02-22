@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif, Helvetica, Arial;
+    color: red;
+}
+
+.body__header__h1{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.main__article{
+  margin: 100px 50px 300px 50px;
+  border: 20px groove rgba(0, 116, 248, 0.5);
+  padding: 10px;
+  background-color:rgba(0, 179, 233, 0.3);
+}
+.main__article__miparrafo{
+  margin-top: 10px;
+  font-style: italic;
+}

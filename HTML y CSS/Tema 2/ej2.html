@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="utf-8">
+    <html lang="es-ES">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Ejercicio 2 - HTML/CSS - OpenBootcamp">
+
+    <!--.CSS FILE-->
+    <link href="ej2.css" type="text/css" rel="stylesheet">
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+    <title>Ejercicio 2 - HTML/CSS - OpenBootcamp</title>
+</head>
+<body class="body">
+    <header class="header">
+        <h1 class="header__page-title">Ejercicio 2</h1>
+    </header>
+    <main class="main">
+            <form class="form" action="#" method="post">
+                <ul class="form__ul">
+                    <li class="form__ul__li" type="none">Nombre</li>
+                    <li class="form__ul__li" type="none">
+                        <input class="form__ul__li__input" id="first-name" type="text" name="first-name" required>
+                    </li>
+                    <li class="form__ul__li" type="none">Apellidos</li>
+                    <li class="form__ul__li" type="none">
+                        <input class="form__ul__li__input" id="last-name" type="text" name="last-name" required>
+                    </li>
+                    <li class="form__ul__li" type="none">Direcci&oacute;n de correo electr&oacute;nico</li>
+                    <li class="form__ul__li" type="none">
+                        <input class="form__ul__li__input" id="email-address" type="email" name="email-address" required>
+                    </li>
+                    <li class="form__ul__li" type="none">Tel&eacute;fono</li>
+                    <li class="form__ul__li" type="none">
+                        <input class="form__ul__li__input" id="phone" type="number" name="phone" required>
+                    </li>
+                    <li class="form__ul__li" type="none">Direcci&oacute;n</li>
+                    <li class="form__ul__li" type="none">
+                        <input class="form__ul__li__input" id="address" type="text" name="address" required>
+                    </li>
+                    <li class="form__ul__li" type="none">
+                        <button class="form__ul__li__bt" type="submit" class="button">Enviar</li>
+                </ul>
+            </form>
+        <article class="table-container">
+            <table class="table">
+                <caption class="table__title">
+                    Provincias de España por comunidades autónomas
+                </caption>
+                <thead class="table__head">
+                    <tr class="table__head__tr">
+                        <th class="table__head__tr__th" scope="col">Aragón</th>
+                        <th class="table__head__tr__th" scope="col" colspan="2">Castilla y León</th>
+                        <th class="table__head__tr__th" scope="col">Galicia</th>
+                    </tr>
+                </thead>
+                <tbody class="table__body">
+                    <tr class="table__body__tr">
+                        <td class="table__body__tr__td">Huesca</td>
+                        <td class="table__body__tr__td">Salamanca</td>
+                        <td class="table__body__tr__td">Zamora</td>
+                        <td class="table__body__tr__td">Pontevedra</td>
+                    </tr>
+                    <tr class="table__head__tr">
+                        <td class="table__body__tr__td">Zaragoza</td>
+                        <td class="table__body__tr__td" colspan="2">León</td>
+                        <td class="table__body__tr__td" rowspan="2">A Coruña</td>
+                    </tr>
+                    <tr class="table__head__tr">
+                        <td class="table__body__tr__td">Teruel</td>
+                        <td class="table__body__tr__td">Segovia</td>
+                        <td class="table__body__tr__td">Palencia</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+    </main>
+</body>
+</html>
