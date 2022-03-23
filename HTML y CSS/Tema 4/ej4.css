@@ -1,0 +1,22 @@
+*{
+  font-family: 'Rubik', sans-serif, Helvetica, Arial;
+  color: red;
+}
+
+header h1{
+  text-align: center;
+  margin-top: 100px;
+}
+
+main article{
+  margin: 100px auto;
+  width: 70%;
+  border: 5px solid gray;
+  border-radius: 20px;
+  padding: 10px;
+  background-color:gainsboro;
+}
+
+.miparafo {
+  font-style: italic;
+}

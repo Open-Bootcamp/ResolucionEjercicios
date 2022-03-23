@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif, Helvetica, Arial;
+}
+
+body {
+    background-image: url("./background.jpg");
+    background-size: cover;
+}
+
+body header h1 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+form {
+    margin: 100px auto;
+    display: grid;
+    justify-content: center;
+    background-color: white;
+    width: 300px;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+form .cuadro__email {
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    margin-bottom: 20px;
+}
+
+form input {
+    height: 20px;
+    margin-left: 5px;
+}
+
+form .cuadro__contraseña {
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    margin-bottom: 20px;
+}
+
+form .cuadro__checkbox {
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    padding: 10px 0px;
+    margin-bottom: 5px;
+}
+
+form .cuadro__checkbox input {
+    margin-right: 5px;
+}
+
+form .cuadro__checkbox input:hover {
+    cursor: pointer;
+}
+
+form .cuadro__button {
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    place-content: center;
+}
+
+form .cuadro__button button {
+    width: 50%;
+    height: 35px;
+    background-color: #00b35f;
+    color: white;
+    transition: 0.2s;
+    box-shadow: 3px 3px 3px #666;
+    border-radius: 5px;
+}
+
+form .cuadro__button button:hover {
+    cursor: pointer;
+}
+
+form .cuadro__button button:active {
+    background-color: black;
+    color: white;
+    transform: translateY(2px);
+    box-shadow: 0 0 #666;
+}

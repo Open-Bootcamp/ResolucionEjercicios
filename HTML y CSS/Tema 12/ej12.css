@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif, Helvetica, Arial;
+}
+
+body header h1 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+section {
+    margin: 10px;
+}
+
+.progress-bar {
+    width: 50%;
+}
+
+.progress-bar:hover {
+    width: 100%;
+    transition: 1s;
+    background-color: red;
+}

@@ -1,0 +1,46 @@
+*{
+  font-family: 'Rubik', sans-serif, Helvetica, Arial;
+}
+
+header h1{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.galeria{
+  border: 1px solid;
+  position: relative;
+  width: 300px;
+  height: 230px;
+  margin: 0 auto;
+}
+
+.galeria input[type=radio]{
+  position: relative;
+  top: 200px;
+  margin-left: 20px;
+}
+
+.galeria img{
+  margin: 10px;
+  border-radius: 10px;
+  position: absolute;
+  width: 90%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.galeria input:nth-of-type(1):checked ~ img:nth-of-type(1){
+  opacity: 1;
+}
+.galeria input:nth-of-type(2):checked ~ img:nth-of-type(2){
+  opacity: 1;
+}
+.galeria input:nth-of-type(3):checked ~ img:nth-of-type(3){
+  opacity: 1;
+}
+.galeria input:nth-of-type(4):checked ~ img:nth-of-type(4){
+  opacity: 1;
+}
