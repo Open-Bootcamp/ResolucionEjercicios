@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: darkgrey;
+  row-gap: 10px;
+}
+.contact-component {
+  background-color: white;
+  margin: 5px;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: center;
+  min-width: 200px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.remove-button {
+  width: 100%;
+  border: none;
+  background-color: tomato;
+  padding: 5px;
+  border-radius: 3px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  opacity: 0.8;
+}
+
+.state-button {
+  width: 100%;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.state-button:hover {
+  opacity: 0.8;
+}
+
+input {
+  background-color: darkgrey;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  color: white;
+}
+
+.submit-button {
+  width: 100%;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: black;
+}
+
+.submit-button:hover {
+  opacity: 0.8;
+}
