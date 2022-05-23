@@ -1,0 +1,31 @@
+$background-color: rgb(255, 145, 0);
+$ytranslate: -10px;
+$btn-padding: 1rem 3rem;
+$shadow-color: rgba(251, 255, 45, 0.7);
+$btn-text-color: white;
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-modern {
+    padding: $btn-padding;
+    font-size: 1.25rem;
+    border: solid 1px transparent;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    &:hover {
+        transform: translateY($ytranslate);
+        background-color: $background-color;
+        color: $btn-text-color;
+        box-shadow: 0 5px 10px $shadow-color;
+    }
+    &:active {
+        transform: scale(0.9);
+    }
+}
+

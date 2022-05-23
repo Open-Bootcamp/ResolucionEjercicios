@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    font-size: 2rem;
+}
+
+div.sidebar {
+    background-color: #2b2b2b;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+div.main {
+    padding: 10px;
+    flex-grow: 1;
+}
+
+@media (max-width: 640px) {
+    body {
+        flex-direction: column-reverse;
+    }
+    div.sidebar {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}

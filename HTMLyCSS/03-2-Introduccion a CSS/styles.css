@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+h1,
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#nombre,
+#frase {
+    color: #2b2b2b;
+}
+
+.texto-principal {
+    font-size: 2rem;
+}
+
+.encabezado {
+    margin-bottom: 3rem;
+}
