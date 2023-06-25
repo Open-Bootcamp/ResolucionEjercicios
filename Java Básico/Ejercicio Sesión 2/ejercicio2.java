@@ -1,11 +1,11 @@
-package com.example;
-
 import java.util.Scanner;
-
-public class ejercicio2 {
-
+//Para este ejercicio tendréis que crear una función que reciba un precio y devuelva el precio con el IVA incluido.
+public class Ejercicio2 {
     public static void main(String[] args) {
+        System.out.println("El resultado con IVA es: "+calculariva());
+    }
 
+    private static double calculariva() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Introduce un numero: ");
@@ -14,8 +14,6 @@ public class ejercicio2 {
 
         double iva = numero * 0.21;
 
-        double suma = numero + iva;
-
-        System.out.println("El resultado con IVA es: " + suma);
+        return numero + iva;
     }
 }
